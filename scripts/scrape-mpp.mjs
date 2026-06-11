@@ -9,32 +9,6 @@ const out = 'data/mpp.json';
 
 function clean(s) { return String(s ?? '').replace(/\s+/g, ' ').trim(); }
 
-function parseCookieHeader(header) {
-  return String(header || '')
-    .split(';')
-    .map(part => part.trim())
-    .filter(Boolean)
-    .map(part => {
-      const eq = part.indexOf('=');
-      if (eq === -1) return null;
-      const name = part.slice(0, eq).trim();
-      const value = part.slice(eq + 1).trim();
-      if (!name || !value) return null;
-
-      // Important : on utilise url au lieu de domain pour mieux gérer les cookies host-only / __Host-.
-      return {
-        name,
-        value,
-        url: 'https://mpp.football',
-        path: '/',
-        httpOnly: false,
-        secure: true,
-        sameSite: 'Lax'
-      };
-    })
-    .filter(Boolean);
-}
-
 function parseStorageSecret(secret) {
   const text = String(secret || '').trim();
   if (!text) return {};
@@ -43,7 +17,6 @@ function parseStorageSecret(secret) {
     if (parsed && typeof parsed === 'object') return parsed;
   } catch {}
 
-  // Format de secours : key=value; key2=value2
   const obj = {};
   for (const part of text.split(';')) {
     const eq = part.indexOf('=');
@@ -53,6 +26,10 @@ function parseStorageSecret(secret) {
     if (key) obj[key] = value;
   }
   return obj;
+}
+
+function countCookies(header) {
+  return String(header || '').split(';').map(x => x.trim()).filter(x => x.includes('=')).length;
 }
 
 function extractFromJson(value) {
@@ -124,12 +101,19 @@ function extractFromText(text) {
 }
 
 const browser = await chromium.launch({ headless: true });
-const context = await browser.newContext({ viewport: { width: 1600, height: 1000 } });
 
-const cookies = parseCookieHeader(cookieHeader);
-if (cookies.length) {
-  await context.addCookies(cookies);
-  console.log(`Cookie MPP chargé: ${cookies.length} cookie(s)`);
+// IMPORTANT:
+// On n'utilise plus context.addCookies(), car certains cookies MPP/Auth0 ne passent pas
+// correctement dans Playwright. À la place, on envoie le header Cookie brut sur mpp.football.
+const contextOptions = { viewport: { width: 1600, height: 1000 } };
+if (cookieHeader.trim()) {
+  contextOptions.extraHTTPHeaders = { Cookie: cookieHeader.trim() };
+}
+
+const context = await browser.newContext(contextOptions);
+
+if (cookieHeader.trim()) {
+  console.log(`Cookie MPP chargé via header brut: ${countCookies(cookieHeader)} cookie(s)`);
 } else {
   console.log('Aucun cookie MPP fourni.');
 }
