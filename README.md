@@ -49,3 +49,21 @@ Le fichier généré est :
 `data/matches.json`
 
 La page tente aussi de charger ESPN directement depuis le navigateur. Si la télé bloque l'appel direct, elle utilise le JSON local généré par GitHub Actions.
+
+
+## Connexion MPP avec cookie GitHub Secret
+
+La ligue MPP est privée. Pour que GitHub Actions puisse récupérer le classement, il faut ajouter le cookie de session MPP dans un secret GitHub nommé `MPP_COOKIE`.
+
+1. Connecte-toi à https://mpp.football sur Chrome.
+2. Ouvre la page de la ligue.
+3. Appuie sur F12, onglet Network / Réseau.
+4. Recharge la page.
+5. Clique sur la requête principale vers `mpp.football` ou une requête API MPP.
+6. Dans Request Headers, copie la valeur complète de `Cookie`.
+7. Dans GitHub : Settings > Secrets and variables > Actions > New repository secret.
+8. Name : `MPP_COOKIE`
+9. Secret : colle la valeur complète du cookie.
+10. Relance Actions > Update dashboard data > Run workflow.
+
+Ne mets jamais ce cookie dans un fichier du dépôt.
