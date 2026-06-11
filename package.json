@@ -1,0 +1,14 @@
+{
+  "name": "mpp-tv-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/update-data.mjs",
+    "scrape:mpp": "node scripts/scrape-mpp.mjs",
+    "fetch:matches": "node scripts/fetch-matches.mjs"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.49.1"
+  }
+}

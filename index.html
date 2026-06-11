@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard MPP TV</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="screen">
+    <section class="left panel">
+      <header class="panel-header">
+        <div>
+          <p class="eyebrow">League MPP</p>
+          <h1 id="leagueName">Classement</h1>
+        </div>
+        <div class="live-dot"><span></span>Auto</div>
+      </header>
+
+      <div class="podium" id="podium"></div>
+
+      <div class="table-wrap">
+        <table class="ranking-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Joueur</th>
+              <th>Pts</th>
+              <th>Diff.</th>
+            </tr>
+          </thead>
+          <tbody id="rankingBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="right panel">
+      <header class="panel-header compact">
+        <div>
+          <p class="eyebrow">Coupe du monde 2026</p>
+          <h2>Matchs du jour</h2>
+        </div>
+        <div class="clock">
+          <strong id="clockTime">--:--</strong>
+          <span id="clockDate">--</span>
+        </div>
+      </header>
+
+      <div id="matches" class="matches"></div>
+    </section>
+  </main>
+
+  <div class="footer">
+    <span id="status">Chargement des données…</span>
+    <span id="updatedAt">Dernière mise à jour : --</span>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
