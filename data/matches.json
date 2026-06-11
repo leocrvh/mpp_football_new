@@ -1,4 +1,16 @@
 {
-  "updatedAt": null,
-  "matches": []
+  "updatedAt": "2026-06-11T12:00:00.000Z",
+  "source": "fallback manuel",
+  "matches": [
+    {
+      "utcDate": "2026-06-11T19:00:00.000Z",
+      "localTime": "21:00",
+      "status": "scheduled",
+      "group": "Groupe A",
+      "homeTeam": "Mexique",
+      "awayTeam": "Afrique du Sud",
+      "homeScore": null,
+      "awayScore": null
+    }
+  ]
 }

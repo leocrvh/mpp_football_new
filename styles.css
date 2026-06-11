@@ -134,3 +134,9 @@ h2 { font-size: clamp(26px, 2vw, 38px); }
   body { overflow:auto; }
   .panel { min-height: 720px; }
 }
+.flag-img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  vertical-align: middle;
+}

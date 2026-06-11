@@ -18,6 +18,7 @@ function esc(value) {
   return String(value ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 }
 function flag(name, fallback) {
+  if (fallback && /^https?:/i.test(fallback)) return `<img class="flag-img" src="${esc(fallback)}" alt="">`;
   return fallback || flagMap[String(name || '').toLowerCase()] || '⚽';
 }
 function fmtDate(value) {
@@ -31,6 +32,46 @@ async function loadJson(url) {
   const res = await fetch(`${url}?t=${Date.now()}`, { cache: 'no-store' });
   if (!res.ok) throw new Error(`${url}: ${res.status}`);
   return res.json();
+}
+
+function todayKey() {
+  const now = new Date();
+  return `${now.getFullYear()}${String(now.getMonth() + 1).padStart(2, '0')}${String(now.getDate()).padStart(2, '0')}`;
+}
+
+function mapEspnEvent(event) {
+  const comp = event?.competitions?.[0] || {};
+  const competitors = comp.competitors || [];
+  const home = competitors.find(c => c.homeAway === 'home') || competitors[0] || {};
+  const away = competitors.find(c => c.homeAway === 'away') || competitors[1] || {};
+  const state = event?.status?.type?.state || comp?.status?.type?.state || 'pre';
+  const completed = event?.status?.type?.completed || comp?.status?.type?.completed || false;
+  let status = 'scheduled';
+  if (completed) status = 'finished';
+  else if (state === 'in') status = 'live';
+
+  return {
+    utcDate: event.date,
+    localTime: event.date ? new Date(event.date).toLocaleTimeString('fr-FR', { hour:'2-digit', minute:'2-digit' }) : null,
+    status,
+    group: event.season?.slug || '',
+    homeTeam: home.team?.displayName || home.team?.shortDisplayName || home.team?.abbreviation || 'À définir',
+    awayTeam: away.team?.displayName || away.team?.shortDisplayName || away.team?.abbreviation || 'À définir',
+    homeFlag: home.team?.logo || null,
+    awayFlag: away.team?.logo || null,
+    homeScore: home.score ?? null,
+    awayScore: away.score ?? null,
+    note: event.status?.type?.shortDetail || event.status?.type?.detail || ''
+  };
+}
+
+async function loadEspnMatches() {
+  const url = `https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=${todayKey()}&limit=100`;
+  const res = await fetch(url, { cache: 'no-store' });
+  if (!res.ok) throw new Error(`ESPN: ${res.status}`);
+  const json = await res.json();
+  const matches = (json.events || []).map(mapEspnEvent);
+  return { updatedAt: new Date().toISOString(), source: 'ESPN direct', matches };
 }
 
 function renderClock() {
@@ -100,12 +141,27 @@ function renderMatches(data) {
 
 async function refresh() {
   try {
-    const [mpp, matches] = await Promise.allSettled([loadJson(DATA_URLS.mpp), loadJson(DATA_URLS.matches)]);
-    if (mpp.status === 'fulfilled') renderRanking(mpp.value); else throw mpp.reason;
-    if (matches.status === 'fulfilled') renderMatches(matches.value); else renderMatches({ matches: [] });
-    const updated = [mpp.value?.updatedAt, matches.value?.updatedAt].filter(Boolean).sort().pop();
+    const mpp = await loadJson(DATA_URLS.mpp);
+    renderRanking(mpp);
+
+    let matchesData = null;
+    try {
+      matchesData = await loadEspnMatches();
+      $('status').textContent = 'Données chargées via ESPN';
+    } catch (espnError) {
+      console.warn('ESPN direct indisponible, utilisation du JSON local:', espnError);
+      try {
+        matchesData = await loadJson(DATA_URLS.matches);
+        $('status').textContent = 'Données chargées via JSON local';
+      } catch {
+        matchesData = { matches: [] };
+        $('status').textContent = 'Aucune donnée match disponible';
+      }
+    }
+
+    renderMatches(matchesData);
+    const updated = [mpp?.updatedAt, matchesData?.updatedAt].filter(Boolean).sort().pop();
     $('updatedAt').textContent = `Dernière mise à jour : ${fmtDate(updated)}`;
-    $('status').textContent = 'Données chargées';
   } catch (err) {
     console.error(err);
     $('status').textContent = 'Erreur de chargement : vérifier data/mpp.json ou GitHub Actions';
