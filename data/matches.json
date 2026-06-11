@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-11T20:00:25.225Z",
+  "updatedAt": "2026-06-11T22:08:51.046Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -7,15 +7,15 @@
       "id": "760415",
       "utcDate": "2026-06-11T19:00Z",
       "localTime": "21:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Mexico",
       "awayTeam": "South Africa",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
-      "homeScore": "1",
+      "homeScore": "2",
       "awayScore": "0",
-      "note": "HT"
+      "note": "FT"
     },
     {
       "id": "760414",
@@ -55,6 +55,48 @@
       "awayTeam": "Paraguay",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
+    },
+    {
+      "id": "760420",
+      "utcDate": "2026-06-13T19:00Z",
+      "localTime": "21:00",
+      "status": "scheduled",
+      "group": "group-stage",
+      "homeTeam": "Qatar",
+      "awayTeam": "Switzerland",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
+    },
+    {
+      "id": "760419",
+      "utcDate": "2026-06-13T22:00Z",
+      "localTime": "00:00",
+      "status": "scheduled",
+      "group": "group-stage",
+      "homeTeam": "Brazil",
+      "awayTeam": "Morocco",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
+    },
+    {
+      "id": "760418",
+      "utcDate": "2026-06-14T01:00Z",
+      "localTime": "03:00",
+      "status": "scheduled",
+      "group": "group-stage",
+      "homeTeam": "Haiti",
+      "awayTeam": "Scotland",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
       "homeScore": "0",
       "awayScore": "0",
       "note": "Scheduled"
