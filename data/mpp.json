@@ -1,9 +1,6 @@
 {
-  "leagueName": "MPP Challenge",
-  "updatedAt": null,
-  "ranking": [
-    { "rank": 1, "name": "À connecter", "points": "--", "diff": "--" },
-    { "rank": 2, "name": "Lancer GitHub Action", "points": "--", "diff": "--" },
-    { "rank": 3, "name": "ou remplir ce JSON", "points": "--", "diff": "--" }
-  ]
+  "updatedAt": "2026-06-11T13:55:29.005Z",
+  "leagueUrl": "https://mpp.football/leagues/mpp_challenge_UC8MVG4F",
+  "leagueName": "Mon Petit Prono (MPP) - le jeu de pronos préféré des français",
+  "ranking": []
 }

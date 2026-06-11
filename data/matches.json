@@ -1,37 +1,63 @@
 {
-  "updatedAt": "2026-06-11T12:00:00.000Z",
-  "source": "fallback manuel",
+  "updatedAt": "2026-06-11T13:55:15.486Z",
+  "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
     {
-      "utcDate": "2026-06-10T19:00:00.000Z",
-      "localTime": "21:00",
-      "status": "finished",
-      "group": "Groupe A",
-      "homeTeam": "Mexique",
-      "awayTeam": "Afrique du Sud",
-      "homeScore": 2,
-      "awayScore": 1
-    },
-    {
-      "utcDate": "2026-06-11T19:00:00.000Z",
+      "id": "760415",
+      "utcDate": "2026-06-11T19:00Z",
       "localTime": "21:00",
       "status": "scheduled",
-      "group": "Groupe A",
-      "homeTeam": "Corée du Sud",
-      "awayTeam": "Tchéquie",
-      "homeScore": null,
-      "awayScore": null
+      "group": "group-stage",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Africa",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
     },
     {
-      "utcDate": "2026-06-12T01:00:00.000Z",
+      "id": "760414",
+      "utcDate": "2026-06-12T02:00Z",
+      "localTime": "04:00",
+      "status": "scheduled",
+      "group": "group-stage",
+      "homeTeam": "South Korea",
+      "awayTeam": "Czechia",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
+    },
+    {
+      "id": "760416",
+      "utcDate": "2026-06-12T19:00Z",
+      "localTime": "21:00",
+      "status": "scheduled",
+      "group": "group-stage",
+      "homeTeam": "Canada",
+      "awayTeam": "Bosnia-Herzegovina",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
+    },
+    {
+      "id": "760417",
+      "utcDate": "2026-06-13T01:00Z",
       "localTime": "03:00",
       "status": "scheduled",
-      "group": "Groupe D",
-      "homeTeam": "États-Unis",
+      "group": "group-stage",
+      "homeTeam": "United States",
       "awayTeam": "Paraguay",
-      "homeScore": null,
-      "awayScore": null
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
     }
   ]
 }
