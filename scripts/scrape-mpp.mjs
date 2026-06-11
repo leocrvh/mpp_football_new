@@ -3,6 +3,8 @@ import { chromium } from '@playwright/test';
 
 const leagueUrl = process.env.MPP_LEAGUE_URL || 'https://mpp.football/leagues/mpp_challenge_UC8MVG4F';
 const cookieHeader = process.env.MPP_COOKIE || '';
+const localStorageSecret = process.env.MPP_LOCAL_STORAGE || '';
+const sessionStorageSecret = process.env.MPP_SESSION_STORAGE || '';
 const out = 'data/mpp.json';
 
 function clean(s) { return String(s ?? '').replace(/\s+/g, ' ').trim(); }
@@ -18,10 +20,12 @@ function parseCookieHeader(header) {
       const name = part.slice(0, eq).trim();
       const value = part.slice(eq + 1).trim();
       if (!name || !value) return null;
+
+      // Important : on utilise url au lieu de domain pour mieux gérer les cookies host-only / __Host-.
       return {
         name,
         value,
-        domain: '.mpp.football',
+        url: 'https://mpp.football',
         path: '/',
         httpOnly: false,
         secure: true,
@@ -29,6 +33,26 @@ function parseCookieHeader(header) {
       };
     })
     .filter(Boolean);
+}
+
+function parseStorageSecret(secret) {
+  const text = String(secret || '').trim();
+  if (!text) return {};
+  try {
+    const parsed = JSON.parse(text);
+    if (parsed && typeof parsed === 'object') return parsed;
+  } catch {}
+
+  // Format de secours : key=value; key2=value2
+  const obj = {};
+  for (const part of text.split(';')) {
+    const eq = part.indexOf('=');
+    if (eq === -1) continue;
+    const key = part.slice(0, eq).trim();
+    const value = part.slice(eq + 1).trim();
+    if (key) obj[key] = value;
+  }
+  return obj;
 }
 
 function extractFromJson(value) {
@@ -51,7 +75,7 @@ function extractFromJson(value) {
       const mapped = node.map((x, idx) => {
         if (!x || typeof x !== 'object') return null;
 
-        const user = x.user || x.player || x.participant || x.member || x.profile || {};
+        const user = x.user || x.player || x.participant || x.member || x.profile || x.owner || {};
         const name = getFirst(x, [
           'username', 'userName', 'nickname', 'name', 'displayName', 'pseudo',
           'playerName', 'fullName', 'login'
@@ -92,10 +116,7 @@ function extractFromJson(value) {
 function extractFromText(text) {
   const lines = text.split('\n').map(clean).filter(Boolean);
   const rows = [];
-  for (let i = 0; i < lines.length; i++) {
-    const line = lines[i];
-
-    // Formats possibles : "1 John 45", "1. John 45 pts", etc.
+  for (const line of lines) {
     const m = line.match(/^(\d{1,3})[\.\s-]+(.+?)\s+(\d{1,5})\s*(pts?|points?)?$/i);
     if (m) rows.push({ rank: Number(m[1]), name: clean(m[2]), points: Number(m[3]), diff: '-' });
   }
@@ -110,7 +131,7 @@ if (cookies.length) {
   await context.addCookies(cookies);
   console.log(`Cookie MPP chargé: ${cookies.length} cookie(s)`);
 } else {
-  console.log('Aucun cookie MPP fourni. Si la ligue est privée, le classement restera à 0 ligne.');
+  console.log('Aucun cookie MPP fourni.');
 }
 
 const page = await context.newPage();
@@ -130,6 +151,21 @@ let ranking = [];
 let leagueName = 'MPP Challenge';
 
 try {
+  await page.goto('https://mpp.football/', { waitUntil: 'domcontentloaded', timeout: 60_000 });
+
+  const localStorageObj = parseStorageSecret(localStorageSecret);
+  const sessionStorageObj = parseStorageSecret(sessionStorageSecret);
+
+  if (Object.keys(localStorageObj).length || Object.keys(sessionStorageObj).length) {
+    await page.evaluate(({ localStorageObj, sessionStorageObj }) => {
+      for (const [k, v] of Object.entries(localStorageObj)) localStorage.setItem(k, String(v));
+      for (const [k, v] of Object.entries(sessionStorageObj)) sessionStorage.setItem(k, String(v));
+    }, { localStorageObj, sessionStorageObj });
+    console.log(`Storage MPP chargé: localStorage=${Object.keys(localStorageObj).length}, sessionStorage=${Object.keys(sessionStorageObj).length}`);
+  } else {
+    console.log('Aucun storage MPP fourni.');
+  }
+
   await page.goto(leagueUrl, { waitUntil: 'networkidle', timeout: 60_000 });
   await page.waitForTimeout(8_000);
 
@@ -174,7 +210,6 @@ try {
     if (!ranking.length) ranking = extractFromText(state.text);
   }
 
-  // Debug utile si ça reste à 0. Le fichier n'est pas affiché par le site, mais il sera dans le runner.
   if (!ranking.length) {
     await fs.mkdir('debug', { recursive: true });
     await page.screenshot({ path: 'debug/mpp-page.png', fullPage: true });
