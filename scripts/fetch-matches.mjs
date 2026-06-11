@@ -1,12 +1,18 @@
 import fs from 'node:fs/promises';
 
 const out = 'data/matches.json';
-const now = new Date();
-const yyyy = now.getFullYear();
-const mm = String(now.getMonth() + 1).padStart(2, '0');
-const dd = String(now.getDate()).padStart(2, '0');
-const ymd = `${yyyy}-${mm}-${dd}`;
-const espnDate = `${yyyy}${mm}${dd}`;
+
+function parisDateKey(date = new Date(), offsetDays = 0) {
+  const d = new Date(date.getTime() + offsetDays * 24 * 60 * 60 * 1000);
+  const parts = new Intl.DateTimeFormat('fr-FR', {
+    timeZone: 'Europe/Paris', year: 'numeric', month: '2-digit', day: '2-digit'
+  }).formatToParts(d).reduce((acc, p) => (acc[p.type] = p.value, acc), {});
+  return `${parts.year}${parts.month}${parts.day}`;
+}
+
+function isoFromCompact(key) {
+  return `${key.slice(0,4)}-${key.slice(4,6)}-${key.slice(6,8)}`;
+}
 
 function mapEspnEvent(event) {
   const comp = event?.competitions?.[0] || {};
@@ -20,6 +26,7 @@ function mapEspnEvent(event) {
   else if (state === 'in') status = 'live';
 
   return {
+    id: event.id,
     utcDate: event.date,
     localTime: event.date ? new Date(event.date).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Paris' }) : null,
     status,
@@ -34,16 +41,29 @@ function mapEspnEvent(event) {
   };
 }
 
-async function fetchEspn() {
-  const url = `https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=${espnDate}&limit=100`;
+async function fetchEspnDate(dateKey) {
+  const url = `https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=${dateKey}&limit=100`;
   const res = await fetch(url);
-  if (!res.ok) throw new Error(`ESPN HTTP ${res.status}`);
+  if (!res.ok) throw new Error(`ESPN ${dateKey} HTTP ${res.status}`);
   const json = await res.json();
   return (json.events || []).map(mapEspnEvent);
 }
 
+async function fetchEspn() {
+  const keys = [parisDateKey(new Date(), -1), parisDateKey(new Date(), 0), parisDateKey(new Date(), 1)];
+  const all = (await Promise.all(keys.map(fetchEspnDate))).flat();
+  const seen = new Set();
+  return all.filter(m => {
+    const key = m.id || `${m.utcDate}-${m.homeTeam}-${m.awayTeam}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
 function mapFootballData(match) {
   return {
+    id: String(match.id || ''),
     utcDate: match.utcDate,
     localTime: match.utcDate ? new Date(match.utcDate).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Paris' }) : null,
     status: match.status,
@@ -58,7 +78,9 @@ function mapFootballData(match) {
 async function fetchFootballData() {
   const token = process.env.FOOTBALL_DATA_TOKEN;
   if (!token) throw new Error('FOOTBALL_DATA_TOKEN absent');
-  const url = `https://api.football-data.org/v4/competitions/WC/matches?dateFrom=${ymd}&dateTo=${ymd}`;
+  const from = isoFromCompact(parisDateKey(new Date(), -1));
+  const to = isoFromCompact(parisDateKey(new Date(), 1));
+  const url = `https://api.football-data.org/v4/competitions/WC/matches?dateFrom=${from}&dateTo=${to}`;
   const res = await fetch(url, { headers: { 'X-Auth-Token': token } });
   if (!res.ok) throw new Error(`football-data.org HTTP ${res.status}`);
   const json = await res.json();
@@ -82,5 +104,10 @@ try {
 
 matches.sort((a, b) => new Date(a.utcDate || 0) - new Date(b.utcDate || 0));
 await fs.mkdir('data', { recursive: true });
-await fs.writeFile(out, JSON.stringify({ updatedAt: new Date().toISOString(), source, matches }, null, 2));
+await fs.writeFile(out, JSON.stringify({
+  updatedAt: new Date().toISOString(),
+  source,
+  window: 'veille 18h -> lendemain 06h Europe/Paris',
+  matches
+}, null, 2));
 console.log(`Matches écrits: ${matches.length} depuis ${source || 'aucune source'}`);

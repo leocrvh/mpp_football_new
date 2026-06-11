@@ -134,9 +134,53 @@ h2 { font-size: clamp(26px, 2vw, 38px); }
   body { overflow:auto; }
   .panel { min-height: 720px; }
 }
+
+.match-section {
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section-title {
+  color: var(--muted);
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  padding: 0 4px;
+}
+.match-section .match-card {
+  flex: 0 0 auto;
+  min-height: 96px;
+  padding: 13px 16px;
+}
+.match-section .score {
+  font-size: clamp(26px, 2vw, 42px);
+}
+.match-section .team-name {
+  font-size: clamp(18px, 1.25vw, 26px);
+}
+
+
 .flag-img {
   width: 42px;
-  height: 42px;
-  object-fit: contain;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid rgba(255,255,255,.15);
+  box-shadow: 0 6px 16px rgba(0,0,0,.25);
   vertical-align: middle;
+}
+.flag-emoji {
+  display: inline-block;
+  font-size: 30px;
+  line-height: 1;
+}
+.match-group {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
 }

@@ -1,14 +1,35 @@
 {
   "updatedAt": "2026-06-11T12:00:00.000Z",
   "source": "fallback manuel",
+  "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
+    {
+      "utcDate": "2026-06-10T19:00:00.000Z",
+      "localTime": "21:00",
+      "status": "finished",
+      "group": "Groupe A",
+      "homeTeam": "Mexique",
+      "awayTeam": "Afrique du Sud",
+      "homeScore": 2,
+      "awayScore": 1
+    },
     {
       "utcDate": "2026-06-11T19:00:00.000Z",
       "localTime": "21:00",
       "status": "scheduled",
       "group": "Groupe A",
-      "homeTeam": "Mexique",
-      "awayTeam": "Afrique du Sud",
+      "homeTeam": "Corée du Sud",
+      "awayTeam": "Tchéquie",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "utcDate": "2026-06-12T01:00:00.000Z",
+      "localTime": "03:00",
+      "status": "scheduled",
+      "group": "Groupe D",
+      "homeTeam": "États-Unis",
+      "awayTeam": "Paraguay",
       "homeScore": null,
       "awayScore": null
     }
