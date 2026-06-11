@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-06-11T22:09:55.324Z",
+  "updatedAt": "2026-06-11T23:52:56.268Z",
   "leagueUrl": "https://mpp.football/leagues/mpp_challenge_UC8MVG4F",
-  "leagueName": "MPP Challenge",
-  "ranking": []
+  "leagueName": "Mon Petit Prono (MPP) - le jeu de pronos préféré des français",
+  "ranking": [
+    {
+      "rank": 1,
+      "name": "-",
+      "points": 1,
+      "diff": "-"
+    },
+    {
+      "rank": 1,
+      "name": "-",
+      "points": 0,
+      "diff": "-"
+    },
+    {
+      "rank": 1,
+      "name": "-",
+      "points": 1,
+      "diff": "-"
+    }
+  ]
 }
