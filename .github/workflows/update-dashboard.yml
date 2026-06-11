@@ -26,6 +26,7 @@ jobs:
         run: npm run update
         env:
           MPP_LEAGUE_URL: https://mpp.football/leagues/mpp_challenge_UC8MVG4F
+          MPP_COOKIE: ${{ secrets.MPP_COOKIE }}
 
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
