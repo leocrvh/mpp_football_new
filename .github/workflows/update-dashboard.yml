@@ -1,0 +1,35 @@
+name: Update dashboard data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/10 * * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm install
+
+      - run: npx playwright install --with-deps chromium
+
+      - name: Update JSON data
+        run: npm run update
+        env:
+          MPP_LEAGUE_URL: https://mpp.football/leagues/mpp_challenge_UC8MVG4F
+
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Update TV dashboard data'
+          file_pattern: data/*.json
