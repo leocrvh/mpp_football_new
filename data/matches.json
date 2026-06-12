@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T17:37:04.063Z",
+  "updatedAt": "2026-06-12T19:34:05.640Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -35,15 +35,15 @@
       "id": "760416",
       "utcDate": "2026-06-12T19:00Z",
       "localTime": "21:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Canada",
       "awayTeam": "Bosnia-Herzegovina",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
       "homeScore": "0",
-      "awayScore": "0",
-      "note": "Scheduled"
+      "awayScore": "1",
+      "note": "31'"
     },
     {
       "id": "760417",
