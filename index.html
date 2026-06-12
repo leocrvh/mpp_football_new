@@ -1,59 +1,57 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Dashboard MPP TV</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MPP TV Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main class="screen">
-    <section class="left panel">
-      <header class="panel-header">
+    <section class="panel mpp-panel">
+      <div class="panel-header compact">
         <div>
-          <p class="eyebrow">League MPP</p>
-          <h1 id="leagueName">Classement</h1>
+          <p class="eyebrow">Ligue MPP</p>
+          <h1>Classement</h1>
         </div>
-        <div class="live-dot"><span></span>Auto</div>
-      </header>
+        <div class="mpp-note">Connexion à faire directement dans cette fenêtre</div>
+      </div>
 
-      <div class="podium" id="podium"></div>
+      <div class="iframe-wrap">
+        <iframe
+          src="https://mpp.football/leagues/mpp_challenge_UC8MVG4F"
+          title="Classement MPP"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
 
-      <div class="table-wrap">
-        <table class="ranking-table">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Joueur</th>
-              <th>Pts</th>
-              <th>Diff.</th>
-            </tr>
-          </thead>
-          <tbody id="rankingBody"></tbody>
-        </table>
+      <div class="iframe-warning">
+        Si MPP bloque l'incrustation, l'affichage peut rester vide.
       </div>
     </section>
 
-    <section class="right panel">
-      <header class="panel-header compact">
+    <section class="panel matches-panel">
+      <div class="panel-header compact">
         <div>
           <p class="eyebrow">Coupe du monde 2026</p>
-          <h2>Matchs récents & à venir</h2>
+          <h2>Matchs & résultats</h2>
         </div>
         <div class="clock">
           <strong id="clockTime">--:--</strong>
           <span id="clockDate">--</span>
         </div>
-      </header>
+      </div>
 
-      <div id="matches" class="matches"></div>
+      <div id="matches" class="matches">
+        <div class="empty">Chargement des matchs...</div>
+      </div>
     </section>
   </main>
 
-  <div class="footer">
-    <span id="status">Chargement des données…</span>
+  <footer class="footer">
+    <span id="status">Initialisation...</span>
     <span id="updatedAt">Dernière mise à jour : --</span>
-  </div>
+  </footer>
 
   <script src="app.js"></script>
 </body>

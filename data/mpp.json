@@ -1,6 +1,9 @@
 {
-  "updatedAt": "2026-06-12T03:44:35.167Z",
-  "leagueUrl": "https://mpp.football/leagues/mpp_challenge_UC8MVG4F",
   "leagueName": "MPP Challenge",
-  "ranking": []
+  "updatedAt": null,
+  "ranking": [
+    { "rank": 1, "name": "À connecter", "points": "--", "diff": "--" },
+    { "rank": 2, "name": "Lancer GitHub Action", "points": "--", "diff": "--" },
+    { "rank": 3, "name": "ou remplir ce JSON", "points": "--", "diff": "--" }
+  ]
 }
