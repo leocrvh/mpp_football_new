@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-11T23:52:42.576Z",
+  "updatedAt": "2026-06-12T03:43:32.495Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -21,15 +21,15 @@
       "id": "760414",
       "utcDate": "2026-06-12T02:00Z",
       "localTime": "04:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "South Korea",
       "awayTeam": "Czechia",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "Scheduled"
+      "homeScore": "2",
+      "awayScore": "1",
+      "note": "84'"
     },
     {
       "id": "760416",
