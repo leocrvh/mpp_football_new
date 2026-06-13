@@ -1,20 +1,8 @@
 {
-  "updatedAt": "2026-06-13T22:48:18.845Z",
+  "updatedAt": "2026-06-13T23:52:58.042Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
-    {
-      "localTime": null,
-      "status": "scheduled",
-      "group": "",
-      "homeTeam": "À définir",
-      "awayTeam": "À définir",
-      "homeFlag": null,
-      "awayFlag": null,
-      "homeScore": null,
-      "awayScore": null,
-      "note": ""
-    },
     {
       "id": "760420",
       "utcDate": "2026-06-13T19:00Z",
@@ -41,7 +29,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
       "homeScore": "1",
       "awayScore": "1",
-      "note": "44'"
+      "note": "88'"
     },
     {
       "id": "760418",
@@ -67,6 +55,20 @@
       "awayTeam": "Türkiye",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
+    },
+    {
+      "id": "760422",
+      "utcDate": "2026-06-14T17:00Z",
+      "localTime": "19:00",
+      "status": "scheduled",
+      "group": "group-stage",
+      "homeTeam": "Germany",
+      "awayTeam": "Curaçao",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
       "homeScore": "0",
       "awayScore": "0",
       "note": "Scheduled"
