@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T22:35:36.883Z",
+  "updatedAt": "2026-06-14T23:48:52.415Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -49,7 +49,7 @@
       "id": "760423",
       "utcDate": "2026-06-14T23:00Z",
       "localTime": "01:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Ivory Coast",
       "awayTeam": "Ecuador",
@@ -57,7 +57,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "45'"
     },
     {
       "id": "760424",
