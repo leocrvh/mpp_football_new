@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T23:52:58.042Z",
+  "updatedAt": "2026-06-14T03:52:16.903Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -21,7 +21,7 @@
       "id": "760419",
       "utcDate": "2026-06-13T22:00Z",
       "localTime": "00:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Brazil",
       "awayTeam": "Morocco",
@@ -29,21 +29,21 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
       "homeScore": "1",
       "awayScore": "1",
-      "note": "88'"
+      "note": "FT"
     },
     {
       "id": "760418",
       "utcDate": "2026-06-14T01:00Z",
       "localTime": "03:00",
-      "status": "scheduled",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Haiti",
       "awayTeam": "Scotland",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
       "homeScore": "0",
-      "awayScore": "0",
-      "note": "Scheduled"
+      "awayScore": "1",
+      "note": "FT"
     },
     {
       "id": "760421",
