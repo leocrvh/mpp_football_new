@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T18:05:44.598Z",
+  "updatedAt": "2026-06-14T19:55:10.185Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -63,15 +63,15 @@
       "id": "760422",
       "utcDate": "2026-06-14T17:00Z",
       "localTime": "19:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Germany",
       "awayTeam": "Curaçao",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
-      "homeScore": "3",
+      "homeScore": "7",
       "awayScore": "1",
-      "note": "HT"
+      "note": "FT"
     },
     {
       "id": "760425",
