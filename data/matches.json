@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T03:52:16.903Z",
+  "updatedAt": "2026-06-14T08:15:24.299Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -49,15 +49,15 @@
       "id": "760421",
       "utcDate": "2026-06-14T04:00Z",
       "localTime": "06:00",
-      "status": "scheduled",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Australia",
       "awayTeam": "Türkiye",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
-      "homeScore": "0",
+      "homeScore": "2",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "FT"
     },
     {
       "id": "760422",
