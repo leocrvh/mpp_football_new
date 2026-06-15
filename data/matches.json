@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T18:14:35.178Z",
+  "updatedAt": "2026-06-15T21:26:36.604Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -91,15 +91,15 @@
       "id": "760426",
       "utcDate": "2026-06-15T19:00Z",
       "localTime": "21:00",
-      "status": "scheduled",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Belgium",
       "awayTeam": "Egypt",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "Scheduled"
+      "homeScore": "1",
+      "awayScore": "1",
+      "note": "FT"
     },
     {
       "id": "760429",
