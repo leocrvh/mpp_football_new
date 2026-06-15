@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T13:37:31.150Z",
+  "updatedAt": "2026-06-15T18:14:35.178Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -77,7 +77,7 @@
       "id": "760428",
       "utcDate": "2026-06-15T16:00Z",
       "localTime": "18:00",
-      "status": "scheduled",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Spain",
       "awayTeam": "Cape Verde",
@@ -85,7 +85,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "FT"
     },
     {
       "id": "760426",
