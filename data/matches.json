@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T23:17:43.969Z",
+  "updatedAt": "2026-06-16T02:02:26.810Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -35,29 +35,29 @@
       "id": "760429",
       "utcDate": "2026-06-15T22:00Z",
       "localTime": "00:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Saudi Arabia",
       "awayTeam": "Uruguay",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
       "homeScore": "1",
-      "awayScore": "0",
-      "note": "52'"
+      "awayScore": "1",
+      "note": "FT"
     },
     {
       "id": "760427",
       "utcDate": "2026-06-16T01:00Z",
       "localTime": "03:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Iran",
       "awayTeam": "New Zealand",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "Scheduled"
+      "homeScore": "1",
+      "awayScore": "1",
+      "note": "HT"
     },
     {
       "id": "760432",
