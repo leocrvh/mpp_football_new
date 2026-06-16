@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T02:02:26.810Z",
+  "updatedAt": "2026-06-16T07:39:39.266Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -49,15 +49,15 @@
       "id": "760427",
       "utcDate": "2026-06-16T01:00Z",
       "localTime": "03:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Iran",
       "awayTeam": "New Zealand",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
-      "homeScore": "1",
-      "awayScore": "1",
-      "note": "HT"
+      "homeScore": "2",
+      "awayScore": "2",
+      "note": "FT"
     },
     {
       "id": "760432",
