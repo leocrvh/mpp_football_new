@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T19:26:02.738Z",
+  "updatedAt": "2026-06-17T21:39:07.071Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -77,15 +77,15 @@
       "id": "760437",
       "utcDate": "2026-06-17T20:00Z",
       "localTime": "22:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "England",
       "awayTeam": "Croatia",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "Scheduled"
+      "homeScore": "3",
+      "awayScore": "2",
+      "note": "74'"
     },
     {
       "id": "760434",
