@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T16:56:21.838Z",
+  "updatedAt": "2026-06-17T19:26:02.738Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -63,15 +63,15 @@
       "id": "760435",
       "utcDate": "2026-06-17T17:00Z",
       "localTime": "19:00",
-      "status": "scheduled",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Portugal",
       "awayTeam": "Congo DR",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "Scheduled"
+      "homeScore": "1",
+      "awayScore": "1",
+      "note": "FT"
     },
     {
       "id": "760437",
