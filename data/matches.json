@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T01:37:25.355Z",
+  "updatedAt": "2026-06-18T06:26:13.540Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -63,15 +63,15 @@
       "id": "760436",
       "utcDate": "2026-06-18T02:00Z",
       "localTime": "04:00",
-      "status": "scheduled",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Uzbekistan",
       "awayTeam": "Colombia",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "Scheduled"
+      "homeScore": "1",
+      "awayScore": "3",
+      "note": "FT"
     },
     {
       "id": "760438",
