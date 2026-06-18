@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T14:10:01.688Z",
+  "updatedAt": "2026-06-18T17:35:03.776Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -77,15 +77,15 @@
       "id": "760438",
       "utcDate": "2026-06-18T16:00Z",
       "localTime": "18:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Czechia",
       "awayTeam": "South Africa",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
-      "homeScore": "0",
+      "homeScore": "1",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "74'"
     },
     {
       "id": "760439",
