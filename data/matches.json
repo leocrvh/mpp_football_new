@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T19:40:22.561Z",
+  "updatedAt": "2026-06-18T21:50:30.822Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -91,15 +91,15 @@
       "id": "760439",
       "utcDate": "2026-06-18T19:00Z",
       "localTime": "21:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Switzerland",
       "awayTeam": "Bosnia-Herzegovina",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "41'"
+      "homeScore": "4",
+      "awayScore": "1",
+      "note": "FT"
     },
     {
       "id": "760440",
