@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T17:35:03.776Z",
+  "updatedAt": "2026-06-18T19:40:22.561Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -77,21 +77,21 @@
       "id": "760438",
       "utcDate": "2026-06-18T16:00Z",
       "localTime": "18:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Czechia",
       "awayTeam": "South Africa",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
       "homeScore": "1",
-      "awayScore": "0",
-      "note": "74'"
+      "awayScore": "1",
+      "note": "FT"
     },
     {
       "id": "760439",
       "utcDate": "2026-06-18T19:00Z",
       "localTime": "21:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Switzerland",
       "awayTeam": "Bosnia-Herzegovina",
@@ -99,7 +99,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "41'"
     },
     {
       "id": "760440",
