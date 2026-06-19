@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T02:17:45.397Z",
+  "updatedAt": "2026-06-19T07:33:37.085Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -49,7 +49,7 @@
       "id": "760441",
       "utcDate": "2026-06-19T01:00Z",
       "localTime": "03:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Mexico",
       "awayTeam": "South Korea",
@@ -57,7 +57,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
       "homeScore": "1",
       "awayScore": "0",
-      "note": "58'"
+      "note": "FT"
     },
     {
       "id": "760442",
