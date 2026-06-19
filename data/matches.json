@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T20:49:15.957Z",
+  "updatedAt": "2026-06-19T21:55:36.290Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -63,7 +63,7 @@
       "id": "760442",
       "utcDate": "2026-06-19T19:00Z",
       "localTime": "21:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "United States",
       "awayTeam": "Australia",
@@ -71,7 +71,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
       "homeScore": "2",
       "awayScore": "0",
-      "note": "83'"
+      "note": "FT"
     },
     {
       "id": "760445",
