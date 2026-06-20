@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T04:39:57.061Z",
+  "updatedAt": "2026-06-20T08:07:00.125Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -49,7 +49,7 @@
       "id": "760443",
       "utcDate": "2026-06-20T03:00Z",
       "localTime": "05:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Türkiye",
       "awayTeam": "Paraguay",
@@ -57,7 +57,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
       "homeScore": "0",
       "awayScore": "1",
-      "note": "73'"
+      "note": "FT"
     },
     {
       "id": "760447",
