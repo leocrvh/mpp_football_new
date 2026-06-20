@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T22:55:39.221Z",
+  "updatedAt": "2026-06-20T00:08:26.219Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -21,7 +21,7 @@
       "id": "760445",
       "utcDate": "2026-06-19T22:00Z",
       "localTime": "00:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Scotland",
       "awayTeam": "Morocco",
@@ -29,7 +29,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
       "homeScore": "0",
       "awayScore": "1",
-      "note": "HT"
+      "note": "FT"
     },
     {
       "id": "760444",
