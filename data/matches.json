@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T16:05:11.848Z",
+  "updatedAt": "2026-06-20T17:43:45.996Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -63,15 +63,15 @@
       "id": "760447",
       "utcDate": "2026-06-20T17:00Z",
       "localTime": "19:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Netherlands",
       "awayTeam": "Sweden",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
-      "homeScore": "0",
+      "homeScore": "2",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "43'"
     },
     {
       "id": "760448",
