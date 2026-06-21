@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T22:13:20.213Z",
+  "updatedAt": "2026-06-21T23:47:31.796Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -55,9 +55,9 @@
       "awayTeam": "Cape Verde",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "12'"
+      "homeScore": "2",
+      "awayScore": "2",
+      "note": "82'"
     },
     {
       "id": "760452",
