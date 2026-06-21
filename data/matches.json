@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T17:50:32.755Z",
+  "updatedAt": "2026-06-21T19:27:37.364Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -63,7 +63,7 @@
       "id": "760453",
       "utcDate": "2026-06-21T16:00Z",
       "localTime": "18:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Spain",
       "awayTeam": "Saudi Arabia",
@@ -71,13 +71,13 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
       "homeScore": "4",
       "awayScore": "0",
-      "note": "87'"
+      "note": "FT"
     },
     {
       "id": "760451",
       "utcDate": "2026-06-21T19:00Z",
       "localTime": "21:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Belgium",
       "awayTeam": "Iran",
@@ -85,7 +85,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "28'"
     },
     {
       "id": "760450",
