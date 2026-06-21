@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T23:06:41.769Z",
+  "updatedAt": "2026-06-21T00:20:23.240Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -35,7 +35,7 @@
       "id": "760446",
       "utcDate": "2026-06-21T00:00Z",
       "localTime": "02:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Ecuador",
       "awayTeam": "Curaçao",
@@ -43,7 +43,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "19'"
     },
     {
       "id": "760449",
