@@ -1,50 +1,8 @@
 {
-  "updatedAt": "2026-06-21T20:54:01.137Z",
+  "updatedAt": "2026-06-21T22:13:20.213Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
-    {
-      "id": "760447",
-      "utcDate": "2026-06-20T17:00Z",
-      "localTime": "19:00",
-      "status": "finished",
-      "group": "group-stage",
-      "homeTeam": "Netherlands",
-      "awayTeam": "Sweden",
-      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
-      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
-      "homeScore": "5",
-      "awayScore": "1",
-      "note": "FT"
-    },
-    {
-      "id": "760448",
-      "utcDate": "2026-06-20T20:00Z",
-      "localTime": "22:00",
-      "status": "finished",
-      "group": "group-stage",
-      "homeTeam": "Germany",
-      "awayTeam": "Ivory Coast",
-      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
-      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
-      "homeScore": "2",
-      "awayScore": "1",
-      "note": "FT"
-    },
-    {
-      "id": "760446",
-      "utcDate": "2026-06-21T00:00Z",
-      "localTime": "02:00",
-      "status": "finished",
-      "group": "group-stage",
-      "homeTeam": "Ecuador",
-      "awayTeam": "Curaçao",
-      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
-      "awayFlag": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "FT"
-    },
     {
       "id": "760449",
       "utcDate": "2026-06-21T04:00Z",
@@ -77,7 +35,7 @@
       "id": "760451",
       "utcDate": "2026-06-21T19:00Z",
       "localTime": "21:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Belgium",
       "awayTeam": "Iran",
@@ -85,13 +43,13 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "89'"
+      "note": "FT"
     },
     {
       "id": "760450",
       "utcDate": "2026-06-21T22:00Z",
       "localTime": "00:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Uruguay",
       "awayTeam": "Cape Verde",
@@ -99,7 +57,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "12'"
     },
     {
       "id": "760452",
@@ -167,6 +125,62 @@
       "awayTeam": "Algeria",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
+    },
+    {
+      "id": "760461",
+      "utcDate": "2026-06-23T17:00Z",
+      "localTime": "19:00",
+      "status": "scheduled",
+      "group": "group-stage",
+      "homeTeam": "Portugal",
+      "awayTeam": "Uzbekistan",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
+    },
+    {
+      "id": "760458",
+      "utcDate": "2026-06-23T20:00Z",
+      "localTime": "22:00",
+      "status": "scheduled",
+      "group": "group-stage",
+      "homeTeam": "England",
+      "awayTeam": "Ghana",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
+    },
+    {
+      "id": "760460",
+      "utcDate": "2026-06-23T23:00Z",
+      "localTime": "01:00",
+      "status": "scheduled",
+      "group": "group-stage",
+      "homeTeam": "Panama",
+      "awayTeam": "Croatia",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
+    },
+    {
+      "id": "760459",
+      "utcDate": "2026-06-24T02:00Z",
+      "localTime": "04:00",
+      "status": "scheduled",
+      "group": "group-stage",
+      "homeTeam": "Colombia",
+      "awayTeam": "Congo DR",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
       "homeScore": "0",
       "awayScore": "0",
       "note": "Scheduled"
