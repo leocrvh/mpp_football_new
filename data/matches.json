@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T00:20:23.240Z",
+  "updatedAt": "2026-06-21T05:23:03.742Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -35,7 +35,7 @@
       "id": "760446",
       "utcDate": "2026-06-21T00:00Z",
       "localTime": "02:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Ecuador",
       "awayTeam": "Curaçao",
@@ -43,21 +43,21 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "19'"
+      "note": "FT"
     },
     {
       "id": "760449",
       "utcDate": "2026-06-21T04:00Z",
       "localTime": "06:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Tunisia",
       "awayTeam": "Japan",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
       "homeScore": "0",
-      "awayScore": "0",
-      "note": "Scheduled"
+      "awayScore": "2",
+      "note": "62'"
     },
     {
       "id": "760453",
