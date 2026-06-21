@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T14:06:02.718Z",
+  "updatedAt": "2026-06-21T16:07:32.318Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -63,7 +63,7 @@
       "id": "760453",
       "utcDate": "2026-06-21T16:00Z",
       "localTime": "18:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Spain",
       "awayTeam": "Saudi Arabia",
@@ -71,7 +71,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "6'"
     },
     {
       "id": "760451",
