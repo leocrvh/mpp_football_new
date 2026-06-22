@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T17:59:31.932Z",
+  "updatedAt": "2026-06-22T20:57:42.710Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -77,15 +77,15 @@
       "id": "760456",
       "utcDate": "2026-06-22T17:00Z",
       "localTime": "19:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Argentina",
       "awayTeam": "Austria",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
-      "homeScore": "1",
+      "homeScore": "2",
       "awayScore": "0",
-      "note": "HT"
+      "note": "FT"
     },
     {
       "id": "760457",
