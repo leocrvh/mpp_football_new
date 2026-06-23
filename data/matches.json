@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T03:46:53.100Z",
+  "updatedAt": "2026-06-23T07:34:46.014Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -49,15 +49,15 @@
       "id": "760455",
       "utcDate": "2026-06-23T03:00Z",
       "localTime": "05:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Jordan",
       "awayTeam": "Algeria",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
       "homeScore": "1",
-      "awayScore": "0",
-      "note": "45'+1'"
+      "awayScore": "2",
+      "note": "FT"
     },
     {
       "id": "760461",
