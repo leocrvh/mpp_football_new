@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T16:14:03.855Z",
+  "updatedAt": "2026-06-23T18:16:51.587Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -63,15 +63,15 @@
       "id": "760461",
       "utcDate": "2026-06-23T17:00Z",
       "localTime": "19:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Portugal",
       "awayTeam": "Uzbekistan",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
-      "homeScore": "0",
+      "homeScore": "3",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "52'"
     },
     {
       "id": "760458",
