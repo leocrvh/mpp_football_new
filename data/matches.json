@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T23:57:11.979Z",
+  "updatedAt": "2026-06-23T03:46:53.100Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -21,43 +21,43 @@
       "id": "760457",
       "utcDate": "2026-06-22T21:00Z",
       "localTime": "23:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "France",
       "awayTeam": "Iraq",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
-      "homeScore": "1",
+      "homeScore": "3",
       "awayScore": "0",
-      "note": "Delay"
+      "note": "FT"
     },
     {
       "id": "760454",
       "utcDate": "2026-06-23T00:00Z",
       "localTime": "02:00",
-      "status": "scheduled",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Norway",
       "awayTeam": "Senegal",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "Scheduled"
+      "homeScore": "3",
+      "awayScore": "2",
+      "note": "FT"
     },
     {
       "id": "760455",
       "utcDate": "2026-06-23T03:00Z",
       "localTime": "05:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Jordan",
       "awayTeam": "Algeria",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
-      "homeScore": "0",
+      "homeScore": "1",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "45'+1'"
     },
     {
       "id": "760461",
