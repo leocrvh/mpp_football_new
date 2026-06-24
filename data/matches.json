@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T00:10:50.273Z",
+  "updatedAt": "2026-06-24T04:40:34.157Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -35,29 +35,29 @@
       "id": "760460",
       "utcDate": "2026-06-23T23:00Z",
       "localTime": "01:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Panama",
       "awayTeam": "Croatia",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
       "homeScore": "0",
-      "awayScore": "0",
-      "note": "52'"
+      "awayScore": "1",
+      "note": "FT"
     },
     {
       "id": "760459",
       "utcDate": "2026-06-24T02:00Z",
       "localTime": "04:00",
-      "status": "scheduled",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Colombia",
       "awayTeam": "Congo DR",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
-      "homeScore": "0",
+      "homeScore": "1",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "FT"
     },
     {
       "id": "760462",
