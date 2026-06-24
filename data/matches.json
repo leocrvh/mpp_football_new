@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T19:59:19.893Z",
+  "updatedAt": "2026-06-24T21:38:25.948Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -63,29 +63,29 @@
       "id": "760462",
       "utcDate": "2026-06-24T19:00Z",
       "localTime": "21:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Bosnia-Herzegovina",
       "awayTeam": "Qatar",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
-      "homeScore": "2",
+      "homeScore": "3",
       "awayScore": "1",
-      "note": "HT"
+      "note": "FT"
     },
     {
       "id": "760463",
       "utcDate": "2026-06-24T19:00Z",
       "localTime": "21:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Switzerland",
       "awayTeam": "Canada",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "HT"
+      "homeScore": "2",
+      "awayScore": "1",
+      "note": "FT"
     },
     {
       "id": "760464",
