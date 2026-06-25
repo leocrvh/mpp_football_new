@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T17:57:05.450Z",
+  "updatedAt": "2026-06-25T20:02:35.953Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -91,7 +91,7 @@
       "id": "760473",
       "utcDate": "2026-06-25T20:00Z",
       "localTime": "22:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Curaçao",
       "awayTeam": "Ivory Coast",
@@ -99,13 +99,13 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "2'"
     },
     {
       "id": "760468",
       "utcDate": "2026-06-25T20:00Z",
       "localTime": "22:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Ecuador",
       "awayTeam": "Germany",
@@ -113,7 +113,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "2'"
     },
     {
       "id": "760471",
