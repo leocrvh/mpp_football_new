@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T23:16:47.475Z",
+  "updatedAt": "2026-06-26T01:33:06.674Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -35,29 +35,29 @@
       "id": "760471",
       "utcDate": "2026-06-25T23:00Z",
       "localTime": "01:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Japan",
       "awayTeam": "Sweden",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "16'"
+      "homeScore": "1",
+      "awayScore": "1",
+      "note": "FT"
     },
     {
       "id": "760472",
       "utcDate": "2026-06-25T23:00Z",
       "localTime": "01:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Tunisia",
       "awayTeam": "Netherlands",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
-      "homeScore": "0",
-      "awayScore": "2",
-      "note": "16'"
+      "homeScore": "1",
+      "awayScore": "3",
+      "note": "FT"
     },
     {
       "id": "760469",
