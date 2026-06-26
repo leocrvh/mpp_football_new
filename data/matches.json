@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T01:33:06.674Z",
+  "updatedAt": "2026-06-26T05:53:43.176Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -63,7 +63,7 @@
       "id": "760469",
       "utcDate": "2026-06-26T02:00Z",
       "localTime": "04:00",
-      "status": "scheduled",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Paraguay",
       "awayTeam": "Australia",
@@ -71,21 +71,21 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "FT"
     },
     {
       "id": "760470",
       "utcDate": "2026-06-26T02:00Z",
       "localTime": "04:00",
-      "status": "scheduled",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Türkiye",
       "awayTeam": "United States",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "Scheduled"
+      "homeScore": "3",
+      "awayScore": "2",
+      "note": "FT"
     },
     {
       "id": "760475",
