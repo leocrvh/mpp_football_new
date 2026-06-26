@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T20:13:39.256Z",
+  "updatedAt": "2026-06-26T21:43:09.809Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -91,29 +91,29 @@
       "id": "760475",
       "utcDate": "2026-06-26T19:00Z",
       "localTime": "21:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Norway",
       "awayTeam": "France",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "homeScore": "1",
-      "awayScore": "3",
-      "note": "49'"
+      "awayScore": "4",
+      "note": "FT"
     },
     {
       "id": "760474",
       "utcDate": "2026-06-26T19:00Z",
       "localTime": "21:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Senegal",
       "awayTeam": "Iraq",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
-      "homeScore": "1",
+      "homeScore": "5",
       "awayScore": "0",
-      "note": "HT"
+      "note": "FT"
     },
     {
       "id": "760478",
