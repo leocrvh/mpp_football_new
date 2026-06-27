@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T22:46:15.466Z",
+  "updatedAt": "2026-06-27T23:45:19.630Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -7,7 +7,7 @@
       "id": "760480",
       "utcDate": "2026-06-27T21:00Z",
       "localTime": "23:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Croatia",
       "awayTeam": "Ghana",
@@ -15,13 +15,13 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
       "homeScore": "2",
       "awayScore": "1",
-      "note": "84'"
+      "note": "FT"
     },
     {
       "id": "760485",
       "utcDate": "2026-06-27T21:00Z",
       "localTime": "23:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Panama",
       "awayTeam": "England",
@@ -29,13 +29,13 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
       "homeScore": "0",
       "awayScore": "2",
-      "note": "87'"
+      "note": "FT"
     },
     {
       "id": "760481",
       "utcDate": "2026-06-27T23:30Z",
       "localTime": "01:30",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Colombia",
       "awayTeam": "Portugal",
@@ -43,21 +43,21 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "14'"
     },
     {
       "id": "760482",
       "utcDate": "2026-06-27T23:30Z",
       "localTime": "01:30",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Congo DR",
       "awayTeam": "Uzbekistan",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
       "homeScore": "0",
-      "awayScore": "0",
-      "note": "Scheduled"
+      "awayScore": "1",
+      "note": "13'"
     },
     {
       "id": "760484",
