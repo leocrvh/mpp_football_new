@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T00:05:13.174Z",
+  "updatedAt": "2026-06-27T04:13:43.660Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -35,7 +35,7 @@
       "id": "760478",
       "utcDate": "2026-06-27T00:00Z",
       "localTime": "02:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Cape Verde",
       "awayTeam": "Saudi Arabia",
@@ -43,49 +43,49 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "3'"
+      "note": "FT"
     },
     {
       "id": "760479",
       "utcDate": "2026-06-27T00:00Z",
       "localTime": "02:00",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Uruguay",
       "awayTeam": "Spain",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "homeScore": "0",
-      "awayScore": "0",
-      "note": "3'"
+      "awayScore": "1",
+      "note": "FT"
     },
     {
       "id": "760476",
       "utcDate": "2026-06-27T03:00Z",
       "localTime": "05:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Egypt",
       "awayTeam": "Iran",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "Scheduled"
+      "homeScore": "1",
+      "awayScore": "1",
+      "note": "49'"
     },
     {
       "id": "760477",
       "utcDate": "2026-06-27T03:00Z",
       "localTime": "05:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "New Zealand",
       "awayTeam": "Belgium",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
       "homeScore": "0",
-      "awayScore": "0",
-      "note": "Scheduled"
+      "awayScore": "2",
+      "note": "51'"
     },
     {
       "id": "760480",
