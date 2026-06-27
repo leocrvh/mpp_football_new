@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T22:54:24.800Z",
+  "updatedAt": "2026-06-27T00:05:13.174Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -35,7 +35,7 @@
       "id": "760478",
       "utcDate": "2026-06-27T00:00Z",
       "localTime": "02:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Cape Verde",
       "awayTeam": "Saudi Arabia",
@@ -43,13 +43,13 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "3'"
     },
     {
       "id": "760479",
       "utcDate": "2026-06-27T00:00Z",
       "localTime": "02:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Uruguay",
       "awayTeam": "Spain",
@@ -57,7 +57,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "3'"
     },
     {
       "id": "760476",
