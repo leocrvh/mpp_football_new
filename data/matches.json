@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T20:34:48.684Z",
+  "updatedAt": "2026-06-27T21:42:25.798Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -91,21 +91,21 @@
       "id": "760480",
       "utcDate": "2026-06-27T21:00Z",
       "localTime": "23:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Croatia",
       "awayTeam": "Ghana",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
-      "homeScore": "0",
+      "homeScore": "1",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "41'"
     },
     {
       "id": "760485",
       "utcDate": "2026-06-27T21:00Z",
       "localTime": "23:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "group-stage",
       "homeTeam": "Panama",
       "awayTeam": "England",
@@ -113,7 +113,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "41'"
     },
     {
       "id": "760481",
