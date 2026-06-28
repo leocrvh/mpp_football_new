@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T18:44:32.034Z",
+  "updatedAt": "2026-06-28T20:01:45.693Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -91,7 +91,7 @@
       "id": "760486",
       "utcDate": "2026-06-28T19:00Z",
       "localTime": "21:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "round-of-32",
       "homeTeam": "South Africa",
       "awayTeam": "Canada",
@@ -99,7 +99,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "HT"
     },
     {
       "id": "760487",
