@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T01:55:29.348Z",
+  "updatedAt": "2026-06-28T06:16:26.483Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -63,29 +63,29 @@
       "id": "760484",
       "utcDate": "2026-06-28T02:00Z",
       "localTime": "04:00",
-      "status": "scheduled",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Algeria",
       "awayTeam": "Austria",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "Scheduled"
+      "homeScore": "3",
+      "awayScore": "3",
+      "note": "FT"
     },
     {
       "id": "760483",
       "utcDate": "2026-06-28T02:00Z",
       "localTime": "04:00",
-      "status": "scheduled",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Jordan",
       "awayTeam": "Argentina",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "Scheduled"
+      "homeScore": "1",
+      "awayScore": "3",
+      "note": "FT"
     },
     {
       "id": "760486",
