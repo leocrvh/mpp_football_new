@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T23:45:19.630Z",
+  "updatedAt": "2026-06-28T01:55:29.348Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -35,7 +35,7 @@
       "id": "760481",
       "utcDate": "2026-06-27T23:30Z",
       "localTime": "01:30",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Colombia",
       "awayTeam": "Portugal",
@@ -43,21 +43,21 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "14'"
+      "note": "FT"
     },
     {
       "id": "760482",
       "utcDate": "2026-06-27T23:30Z",
       "localTime": "01:30",
-      "status": "live",
+      "status": "finished",
       "group": "group-stage",
       "homeTeam": "Congo DR",
       "awayTeam": "Uzbekistan",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
-      "homeScore": "0",
+      "homeScore": "3",
       "awayScore": "1",
-      "note": "13'"
+      "note": "FT"
     },
     {
       "id": "760484",
