@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T20:06:11.522Z",
+  "updatedAt": "2026-06-29T21:43:17.816Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -35,15 +35,15 @@
       "id": "760489",
       "utcDate": "2026-06-29T20:30Z",
       "localTime": "22:30",
-      "status": "scheduled",
+      "status": "live",
       "group": "round-of-32",
       "homeTeam": "Germany",
       "awayTeam": "Paraguay",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
       "homeScore": "0",
-      "awayScore": "0",
-      "note": "Scheduled"
+      "awayScore": "1",
+      "note": "50'"
     },
     {
       "id": "760488",
