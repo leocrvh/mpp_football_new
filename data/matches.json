@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T17:58:13.298Z",
+  "updatedAt": "2026-06-29T20:06:11.522Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -21,15 +21,15 @@
       "id": "760487",
       "utcDate": "2026-06-29T17:00Z",
       "localTime": "19:00",
-      "status": "live",
+      "status": "finished",
       "group": "round-of-32",
       "homeTeam": "Brazil",
       "awayTeam": "Japan",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
-      "homeScore": "0",
+      "homeScore": "2",
       "awayScore": "1",
-      "note": "HT"
+      "note": "FT"
     },
     {
       "id": "760489",
