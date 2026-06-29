@@ -1,22 +1,8 @@
 {
-  "updatedAt": "2026-06-29T21:43:17.816Z",
+  "updatedAt": "2026-06-29T22:42:21.268Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
-    {
-      "id": "760486",
-      "utcDate": "2026-06-28T19:00Z",
-      "localTime": "21:00",
-      "status": "finished",
-      "group": "round-of-32",
-      "homeTeam": "South Africa",
-      "awayTeam": "Canada",
-      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
-      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
-      "homeScore": "0",
-      "awayScore": "1",
-      "note": "FT"
-    },
     {
       "id": "760487",
       "utcDate": "2026-06-29T17:00Z",
@@ -41,9 +27,9 @@
       "awayTeam": "Paraguay",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
-      "homeScore": "0",
+      "homeScore": "1",
       "awayScore": "1",
-      "note": "50'"
+      "note": "99'"
     },
     {
       "id": "760488",
@@ -97,6 +83,48 @@
       "awayTeam": "Ecuador",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
+    },
+    {
+      "id": "760495",
+      "utcDate": "2026-07-01T16:00Z",
+      "localTime": "18:00",
+      "status": "scheduled",
+      "group": "round-of-32",
+      "homeTeam": "England",
+      "awayTeam": "Congo DR",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
+    },
+    {
+      "id": "760493",
+      "utcDate": "2026-07-01T20:00Z",
+      "localTime": "22:00",
+      "status": "scheduled",
+      "group": "round-of-32",
+      "homeTeam": "Belgium",
+      "awayTeam": "Senegal",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
+    },
+    {
+      "id": "760494",
+      "utcDate": "2026-07-02T00:00Z",
+      "localTime": "02:00",
+      "status": "scheduled",
+      "group": "round-of-32",
+      "homeTeam": "United States",
+      "awayTeam": "Bosnia-Herzegovina",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
       "homeScore": "0",
       "awayScore": "0",
       "note": "Scheduled"
