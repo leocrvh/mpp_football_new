@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T22:18:02.207Z",
+  "updatedAt": "2026-06-30T23:40:21.489Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -21,15 +21,15 @@
       "id": "760492",
       "utcDate": "2026-06-30T21:00Z",
       "localTime": "23:00",
-      "status": "live",
+      "status": "finished",
       "group": "round-of-32",
       "homeTeam": "France",
       "awayTeam": "Sweden",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
-      "homeScore": "2",
+      "homeScore": "3",
       "awayScore": "0",
-      "note": "59'"
+      "note": "FT"
     },
     {
       "id": "760491",
