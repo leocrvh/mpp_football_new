@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T01:52:31.111Z",
+  "updatedAt": "2026-06-30T06:10:17.195Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -35,15 +35,15 @@
       "id": "760488",
       "utcDate": "2026-06-30T01:00Z",
       "localTime": "03:00",
-      "status": "live",
+      "status": "finished",
       "group": "round-of-32",
       "homeTeam": "Netherlands",
       "awayTeam": "Morocco",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "HT"
+      "homeScore": "1",
+      "awayScore": "1",
+      "note": "FT-Pens"
     },
     {
       "id": "760490",
