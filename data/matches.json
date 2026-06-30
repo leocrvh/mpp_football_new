@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T18:57:10.577Z",
+  "updatedAt": "2026-06-30T20:57:58.392Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -49,7 +49,7 @@
       "id": "760490",
       "utcDate": "2026-06-30T17:00Z",
       "localTime": "19:00",
-      "status": "live",
+      "status": "finished",
       "group": "round-of-32",
       "homeTeam": "Ivory Coast",
       "awayTeam": "Norway",
@@ -57,7 +57,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
       "homeScore": "1",
       "awayScore": "2",
-      "note": "90'+7'"
+      "note": "FT"
     },
     {
       "id": "760492",
