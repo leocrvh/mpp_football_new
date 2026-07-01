@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T01:56:54.604Z",
+  "updatedAt": "2026-07-01T06:28:41.790Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -35,15 +35,15 @@
       "id": "760491",
       "utcDate": "2026-07-01T02:00Z",
       "localTime": "04:00",
-      "status": "scheduled",
+      "status": "finished",
       "group": "round-of-32",
       "homeTeam": "Mexico",
       "awayTeam": "Ecuador",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
-      "homeScore": "0",
+      "homeScore": "2",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "FT"
     },
     {
       "id": "760495",
