@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T23:40:21.489Z",
+  "updatedAt": "2026-07-01T01:56:54.604Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -33,8 +33,8 @@
     },
     {
       "id": "760491",
-      "utcDate": "2026-07-01T01:00Z",
-      "localTime": "03:00",
+      "utcDate": "2026-07-01T02:00Z",
+      "localTime": "04:00",
       "status": "scheduled",
       "group": "round-of-32",
       "homeTeam": "Mexico",
