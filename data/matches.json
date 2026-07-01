@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T13:21:29.890Z",
+  "updatedAt": "2026-07-01T16:05:05.221Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -49,7 +49,7 @@
       "id": "760495",
       "utcDate": "2026-07-01T16:00Z",
       "localTime": "18:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "round-of-32",
       "homeTeam": "England",
       "awayTeam": "Congo DR",
@@ -57,7 +57,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "4'"
     },
     {
       "id": "760493",
