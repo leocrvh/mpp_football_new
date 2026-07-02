@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T22:44:23.877Z",
+  "updatedAt": "2026-07-02T23:47:58.730Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -21,7 +21,7 @@
       "id": "760496",
       "utcDate": "2026-07-02T23:00Z",
       "localTime": "01:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "round-of-32",
       "homeTeam": "Portugal",
       "awayTeam": "Croatia",
@@ -29,7 +29,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "45'+2'"
     },
     {
       "id": "760498",
