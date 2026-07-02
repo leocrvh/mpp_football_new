@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T20:17:43.857Z",
+  "updatedAt": "2026-07-02T21:36:49.822Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -49,15 +49,15 @@
       "id": "760497",
       "utcDate": "2026-07-02T19:00Z",
       "localTime": "21:00",
-      "status": "live",
+      "status": "finished",
       "group": "round-of-32",
       "homeTeam": "Spain",
       "awayTeam": "Austria",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
-      "homeScore": "1",
+      "homeScore": "3",
       "awayScore": "0",
-      "note": "55'"
+      "note": "FT"
     },
     {
       "id": "760496",
