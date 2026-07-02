@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T23:13:13.843Z",
+  "updatedAt": "2026-07-02T01:26:57.840Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -35,15 +35,15 @@
       "id": "760494",
       "utcDate": "2026-07-02T00:00Z",
       "localTime": "02:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "round-of-32",
       "homeTeam": "United States",
       "awayTeam": "Bosnia-Herzegovina",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
-      "homeScore": "0",
+      "homeScore": "1",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "60'"
     },
     {
       "id": "760497",
