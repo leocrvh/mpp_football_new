@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T01:21:27.139Z",
+  "updatedAt": "2026-07-03T05:13:26.047Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -35,15 +35,15 @@
       "id": "760498",
       "utcDate": "2026-07-03T03:00Z",
       "localTime": "05:00",
-      "status": "scheduled",
+      "status": "finished",
       "group": "round-of-32",
       "homeTeam": "Switzerland",
       "awayTeam": "Algeria",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
-      "homeScore": "0",
+      "homeScore": "2",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "FT"
     },
     {
       "id": "760499",
