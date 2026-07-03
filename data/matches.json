@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T22:14:28.848Z",
+  "updatedAt": "2026-07-03T23:30:02.889Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -27,9 +27,9 @@
       "awayTeam": "Cape Verde",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "13'"
+      "homeScore": "1",
+      "awayScore": "1",
+      "note": "69'"
     },
     {
       "id": "760501",
