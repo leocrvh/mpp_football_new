@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T19:53:11.047Z",
+  "updatedAt": "2026-07-03T21:03:16.059Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -49,7 +49,7 @@
       "id": "760499",
       "utcDate": "2026-07-03T18:00Z",
       "localTime": "20:00",
-      "status": "live",
+      "status": "finished",
       "group": "round-of-32",
       "homeTeam": "Australia",
       "awayTeam": "Egypt",
@@ -57,7 +57,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
       "homeScore": "1",
       "awayScore": "1",
-      "note": "90'+1'"
+      "note": "FT-Pens"
     },
     {
       "id": "760500",
