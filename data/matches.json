@@ -1,50 +1,8 @@
 {
-  "updatedAt": "2026-07-03T21:03:16.059Z",
+  "updatedAt": "2026-07-03T22:14:28.848Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
-    {
-      "id": "760497",
-      "utcDate": "2026-07-02T19:00Z",
-      "localTime": "21:00",
-      "status": "finished",
-      "group": "round-of-32",
-      "homeTeam": "Spain",
-      "awayTeam": "Austria",
-      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
-      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
-      "homeScore": "3",
-      "awayScore": "0",
-      "note": "FT"
-    },
-    {
-      "id": "760496",
-      "utcDate": "2026-07-02T23:00Z",
-      "localTime": "01:00",
-      "status": "finished",
-      "group": "round-of-32",
-      "homeTeam": "Portugal",
-      "awayTeam": "Croatia",
-      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
-      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
-      "homeScore": "2",
-      "awayScore": "1",
-      "note": "FT"
-    },
-    {
-      "id": "760498",
-      "utcDate": "2026-07-03T03:00Z",
-      "localTime": "05:00",
-      "status": "finished",
-      "group": "round-of-32",
-      "homeTeam": "Switzerland",
-      "awayTeam": "Algeria",
-      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
-      "homeScore": "2",
-      "awayScore": "0",
-      "note": "FT"
-    },
     {
       "id": "760499",
       "utcDate": "2026-07-03T18:00Z",
@@ -63,7 +21,7 @@
       "id": "760500",
       "utcDate": "2026-07-03T22:00Z",
       "localTime": "00:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "round-of-32",
       "homeTeam": "Argentina",
       "awayTeam": "Cape Verde",
@@ -71,7 +29,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "13'"
     },
     {
       "id": "760501",
@@ -111,6 +69,34 @@
       "awayTeam": "France",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
+    },
+    {
+      "id": "760504",
+      "utcDate": "2026-07-05T20:00Z",
+      "localTime": "22:00",
+      "status": "scheduled",
+      "group": "round-of-16",
+      "homeTeam": "Brazil",
+      "awayTeam": "Norway",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
+    },
+    {
+      "id": "760505",
+      "utcDate": "2026-07-06T00:00Z",
+      "localTime": "02:00",
+      "status": "scheduled",
+      "group": "round-of-16",
+      "homeTeam": "Mexico",
+      "awayTeam": "England",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
       "homeScore": "0",
       "awayScore": "0",
       "note": "Scheduled"
