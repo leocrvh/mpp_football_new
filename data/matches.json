@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T17:42:07.093Z",
+  "updatedAt": "2026-07-04T18:44:05.010Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -56,8 +56,8 @@
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
       "homeScore": "0",
-      "awayScore": "0",
-      "note": "41'"
+      "awayScore": "1",
+      "note": "79'"
     },
     {
       "id": "760503",
