@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T22:09:10.163Z",
+  "updatedAt": "2026-07-04T23:12:27.248Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -21,15 +21,15 @@
       "id": "760503",
       "utcDate": "2026-07-04T21:00Z",
       "localTime": "23:00",
-      "status": "live",
+      "status": "finished",
       "group": "round-of-16",
       "homeTeam": "Paraguay",
       "awayTeam": "France",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "homeScore": "0",
-      "awayScore": "0",
-      "note": "HT"
+      "awayScore": "1",
+      "note": "FT"
     },
     {
       "id": "760504",
