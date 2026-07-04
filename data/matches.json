@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T23:30:02.889Z",
+  "updatedAt": "2026-07-04T01:10:15.404Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -21,15 +21,15 @@
       "id": "760500",
       "utcDate": "2026-07-03T22:00Z",
       "localTime": "00:00",
-      "status": "live",
+      "status": "finished",
       "group": "round-of-32",
       "homeTeam": "Argentina",
       "awayTeam": "Cape Verde",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
-      "homeScore": "1",
-      "awayScore": "1",
-      "note": "69'"
+      "homeScore": "3",
+      "awayScore": "2",
+      "note": "AET"
     },
     {
       "id": "760501",
