@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T18:44:05.010Z",
+  "updatedAt": "2026-07-04T19:58:17.845Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -49,15 +49,15 @@
       "id": "760502",
       "utcDate": "2026-07-04T17:00Z",
       "localTime": "19:00",
-      "status": "live",
+      "status": "finished",
       "group": "round-of-16",
       "homeTeam": "Canada",
       "awayTeam": "Morocco",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
       "homeScore": "0",
-      "awayScore": "1",
-      "note": "79'"
+      "awayScore": "3",
+      "note": "FT"
     },
     {
       "id": "760503",
