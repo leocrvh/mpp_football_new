@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T19:45:53.924Z",
+  "updatedAt": "2026-07-05T20:42:13.489Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -35,7 +35,7 @@
       "id": "760504",
       "utcDate": "2026-07-05T20:00Z",
       "localTime": "22:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "round-of-16",
       "homeTeam": "Brazil",
       "awayTeam": "Norway",
@@ -43,7 +43,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "42'"
     },
     {
       "id": "760505",
