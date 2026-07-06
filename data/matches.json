@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T01:28:35.336Z",
+  "updatedAt": "2026-07-06T06:04:00.023Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -21,15 +21,15 @@
       "id": "760505",
       "utcDate": "2026-07-06T01:00Z",
       "localTime": "03:00",
-      "status": "live",
+      "status": "finished",
       "group": "round-of-16",
       "homeTeam": "Mexico",
       "awayTeam": "England",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "29'"
+      "homeScore": "2",
+      "awayScore": "3",
+      "note": "FT"
     },
     {
       "id": "760506",
