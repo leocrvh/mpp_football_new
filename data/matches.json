@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T19:15:15.531Z",
+  "updatedAt": "2026-07-06T21:03:35.472Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -35,15 +35,15 @@
       "id": "760506",
       "utcDate": "2026-07-06T19:00Z",
       "localTime": "21:00",
-      "status": "live",
+      "status": "finished",
       "group": "round-of-16",
       "homeTeam": "Portugal",
       "awayTeam": "Spain",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "homeScore": "0",
-      "awayScore": "0",
-      "note": "15'"
+      "awayScore": "1",
+      "note": "FT"
     },
     {
       "id": "760507",
