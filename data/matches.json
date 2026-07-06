@@ -1,36 +1,8 @@
 {
-  "updatedAt": "2026-07-06T21:03:35.472Z",
+  "updatedAt": "2026-07-06T22:24:25.968Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
-    {
-      "id": "760504",
-      "utcDate": "2026-07-05T20:00Z",
-      "localTime": "22:00",
-      "status": "finished",
-      "group": "round-of-16",
-      "homeTeam": "Brazil",
-      "awayTeam": "Norway",
-      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
-      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
-      "homeScore": "1",
-      "awayScore": "2",
-      "note": "FT"
-    },
-    {
-      "id": "760505",
-      "utcDate": "2026-07-06T01:00Z",
-      "localTime": "03:00",
-      "status": "finished",
-      "group": "round-of-16",
-      "homeTeam": "Mexico",
-      "awayTeam": "England",
-      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
-      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-      "homeScore": "2",
-      "awayScore": "3",
-      "note": "FT"
-    },
     {
       "id": "760506",
       "utcDate": "2026-07-06T19:00Z",
