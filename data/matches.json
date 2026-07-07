@@ -1,36 +1,8 @@
 {
-  "updatedAt": "2026-07-07T21:55:59.240Z",
+  "updatedAt": "2026-07-07T23:00:18.504Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
-    {
-      "id": "760506",
-      "utcDate": "2026-07-06T19:00Z",
-      "localTime": "21:00",
-      "status": "finished",
-      "group": "round-of-16",
-      "homeTeam": "Portugal",
-      "awayTeam": "Spain",
-      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
-      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
-      "homeScore": "0",
-      "awayScore": "1",
-      "note": "FT"
-    },
-    {
-      "id": "760507",
-      "utcDate": "2026-07-07T00:00Z",
-      "localTime": "02:00",
-      "status": "finished",
-      "group": "round-of-16",
-      "homeTeam": "United States",
-      "awayTeam": "Belgium",
-      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
-      "homeScore": "1",
-      "awayScore": "4",
-      "note": "FT"
-    },
     {
       "id": "760509",
       "utcDate": "2026-07-07T16:00Z",
@@ -49,7 +21,7 @@
       "id": "760508",
       "utcDate": "2026-07-07T20:00Z",
       "localTime": "22:00",
-      "status": "live",
+      "status": "finished",
       "group": "round-of-16",
       "homeTeam": "Switzerland",
       "awayTeam": "Colombia",
@@ -57,7 +29,21 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "ET"
+      "note": "FT-Pens"
+    },
+    {
+      "id": "760510",
+      "utcDate": "2026-07-09T20:00Z",
+      "localTime": "22:00",
+      "status": "scheduled",
+      "group": "quarterfinals",
+      "homeTeam": "France",
+      "awayTeam": "Morocco",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
     }
   ]
 }
