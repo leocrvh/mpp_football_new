@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T18:31:29.704Z",
+  "updatedAt": "2026-07-07T20:29:57.889Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -49,7 +49,7 @@
       "id": "760508",
       "utcDate": "2026-07-07T20:00Z",
       "localTime": "22:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "round-of-16",
       "homeTeam": "Switzerland",
       "awayTeam": "Colombia",
@@ -57,7 +57,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "29'"
     }
   ]
 }
