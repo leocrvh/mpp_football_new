@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T13:55:29.124Z",
+  "updatedAt": "2026-07-07T16:28:46.389Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -35,15 +35,15 @@
       "id": "760509",
       "utcDate": "2026-07-07T16:00Z",
       "localTime": "18:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "round-of-16",
       "homeTeam": "Argentina",
       "awayTeam": "Egypt",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
       "homeScore": "0",
-      "awayScore": "0",
-      "note": "Scheduled"
+      "awayScore": "1",
+      "note": "27'"
     },
     {
       "id": "760508",
