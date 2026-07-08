@@ -1,36 +1,8 @@
 {
-  "updatedAt": "2026-07-08T21:53:58.044Z",
+  "updatedAt": "2026-07-08T23:04:39.204Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
-    {
-      "id": "760509",
-      "utcDate": "2026-07-07T16:00Z",
-      "localTime": "18:00",
-      "status": "finished",
-      "group": "round-of-16",
-      "homeTeam": "Argentina",
-      "awayTeam": "Egypt",
-      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
-      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
-      "homeScore": "3",
-      "awayScore": "2",
-      "note": "FT"
-    },
-    {
-      "id": "760508",
-      "utcDate": "2026-07-07T20:00Z",
-      "localTime": "22:00",
-      "status": "finished",
-      "group": "round-of-16",
-      "homeTeam": "Switzerland",
-      "awayTeam": "Colombia",
-      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "FT-Pens"
-    },
     {
       "id": "760510",
       "utcDate": "2026-07-09T20:00Z",
@@ -41,6 +13,20 @@
       "awayTeam": "Morocco",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
+    },
+    {
+      "id": "760511",
+      "utcDate": "2026-07-10T19:00Z",
+      "localTime": "21:00",
+      "status": "scheduled",
+      "group": "quarterfinals",
+      "homeTeam": "Spain",
+      "awayTeam": "Belgium",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
       "homeScore": "0",
       "awayScore": "0",
       "note": "Scheduled"
