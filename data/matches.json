@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T20:18:05.086Z",
+  "updatedAt": "2026-07-09T21:51:37.983Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -13,9 +13,9 @@
       "awayTeam": "Morocco",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
-      "homeScore": "0",
+      "homeScore": "2",
       "awayScore": "0",
-      "note": "17'"
+      "note": "87'"
     },
     {
       "id": "760511",
