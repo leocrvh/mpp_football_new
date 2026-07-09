@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T18:23:19.807Z",
+  "updatedAt": "2026-07-09T20:18:05.086Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -7,7 +7,7 @@
       "id": "760510",
       "utcDate": "2026-07-09T20:00Z",
       "localTime": "22:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "quarterfinals",
       "homeTeam": "France",
       "awayTeam": "Morocco",
@@ -15,7 +15,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "17'"
     },
     {
       "id": "760511",
