@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T21:51:37.983Z",
+  "updatedAt": "2026-07-09T23:09:37.156Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -7,7 +7,7 @@
       "id": "760510",
       "utcDate": "2026-07-09T20:00Z",
       "localTime": "22:00",
-      "status": "live",
+      "status": "finished",
       "group": "quarterfinals",
       "homeTeam": "France",
       "awayTeam": "Morocco",
@@ -15,7 +15,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
       "homeScore": "2",
       "awayScore": "0",
-      "note": "87'"
+      "note": "FT"
     },
     {
       "id": "760511",
@@ -27,6 +27,34 @@
       "awayTeam": "Belgium",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
+    },
+    {
+      "id": "760512",
+      "utcDate": "2026-07-11T21:00Z",
+      "localTime": "23:00",
+      "status": "scheduled",
+      "group": "quarterfinals",
+      "homeTeam": "Norway",
+      "awayTeam": "England",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
+    },
+    {
+      "id": "760513",
+      "utcDate": "2026-07-12T01:00Z",
+      "localTime": "03:00",
+      "status": "scheduled",
+      "group": "quarterfinals",
+      "homeTeam": "Argentina",
+      "awayTeam": "Switzerland",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
       "homeScore": "0",
       "awayScore": "0",
       "note": "Scheduled"
