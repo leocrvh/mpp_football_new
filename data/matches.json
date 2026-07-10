@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T19:10:01.873Z",
+  "updatedAt": "2026-07-10T20:42:38.213Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -27,9 +27,9 @@
       "awayTeam": "Belgium",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "9'"
+      "homeScore": "1",
+      "awayScore": "1",
+      "note": "81'"
     },
     {
       "id": "760512",
