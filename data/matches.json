@@ -1,22 +1,8 @@
 {
-  "updatedAt": "2026-07-11T21:03:43.724Z",
+  "updatedAt": "2026-07-11T22:03:07.760Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
-    {
-      "id": "760511",
-      "utcDate": "2026-07-10T19:00Z",
-      "localTime": "21:00",
-      "status": "finished",
-      "group": "quarterfinals",
-      "homeTeam": "Spain",
-      "awayTeam": "Belgium",
-      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
-      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
-      "homeScore": "2",
-      "awayScore": "1",
-      "note": "FT"
-    },
     {
       "id": "760512",
       "utcDate": "2026-07-11T21:00Z",
@@ -27,9 +13,9 @@
       "awayTeam": "England",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "3'"
+      "homeScore": "1",
+      "awayScore": "1",
+      "note": "HT"
     },
     {
       "id": "760513",
