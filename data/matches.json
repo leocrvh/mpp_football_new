@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T22:03:07.760Z",
+  "updatedAt": "2026-07-11T23:05:31.667Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -15,7 +15,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
       "homeScore": "1",
       "awayScore": "1",
-      "note": "HT"
+      "note": "ET"
     },
     {
       "id": "760513",
