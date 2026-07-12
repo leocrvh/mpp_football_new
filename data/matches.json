@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T00:06:26.114Z",
+  "updatedAt": "2026-07-12T03:51:22.956Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -21,15 +21,15 @@
       "id": "760513",
       "utcDate": "2026-07-12T01:00Z",
       "localTime": "03:00",
-      "status": "scheduled",
+      "status": "finished",
       "group": "quarterfinals",
       "homeTeam": "Argentina",
       "awayTeam": "Switzerland",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-      "homeScore": "0",
-      "awayScore": "0",
-      "note": "Scheduled"
+      "homeScore": "3",
+      "awayScore": "1",
+      "note": "AET"
     }
   ]
 }
