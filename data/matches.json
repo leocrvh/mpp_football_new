@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T23:05:31.667Z",
+  "updatedAt": "2026-07-12T00:06:26.114Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -7,15 +7,15 @@
       "id": "760512",
       "utcDate": "2026-07-11T21:00Z",
       "localTime": "23:00",
-      "status": "live",
+      "status": "finished",
       "group": "quarterfinals",
       "homeTeam": "Norway",
       "awayTeam": "England",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
       "homeScore": "1",
-      "awayScore": "1",
-      "note": "ET"
+      "awayScore": "2",
+      "note": "AET"
     },
     {
       "id": "760513",
