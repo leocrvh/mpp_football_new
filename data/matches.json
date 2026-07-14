@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T20:08:57.855Z",
+  "updatedAt": "2026-07-14T21:14:03.002Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -7,15 +7,15 @@
       "id": "760514",
       "utcDate": "2026-07-14T19:00Z",
       "localTime": "21:00",
-      "status": "live",
+      "status": "finished",
       "group": "semifinals",
       "homeTeam": "France",
       "awayTeam": "Spain",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "homeScore": "0",
-      "awayScore": "1",
-      "note": "47'"
+      "awayScore": "2",
+      "note": "FT"
     },
     {
       "id": "760515",
