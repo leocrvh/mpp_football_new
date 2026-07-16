@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-07-16T21:44:44.357Z",
+  "updatedAt": "2026-07-16T22:41:50.567Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
     {
-      "id": "760515",
-      "utcDate": "2026-07-15T19:00Z",
-      "localTime": "21:00",
-      "status": "finished",
-      "group": "semifinals",
-      "homeTeam": "England",
-      "awayTeam": "Argentina",
-      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
-      "homeScore": "1",
-      "awayScore": "2",
-      "note": "FT"
+      "id": "760516",
+      "utcDate": "2026-07-18T21:00Z",
+      "localTime": "23:00",
+      "status": "scheduled",
+      "group": "3rd-place-match",
+      "homeTeam": "France",
+      "awayTeam": "England",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
     }
   ]
 }
