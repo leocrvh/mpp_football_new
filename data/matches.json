@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T21:51:41.913Z",
+  "updatedAt": "2026-07-17T22:47:22.844Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -13,6 +13,20 @@
       "awayTeam": "England",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+      "homeScore": "0",
+      "awayScore": "0",
+      "note": "Scheduled"
+    },
+    {
+      "id": "760517",
+      "utcDate": "2026-07-19T19:00Z",
+      "localTime": "21:00",
+      "status": "scheduled",
+      "group": "final",
+      "homeTeam": "Spain",
+      "awayTeam": "Argentina",
+      "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+      "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
       "homeScore": "0",
       "awayScore": "0",
       "note": "Scheduled"
