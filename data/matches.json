@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T20:32:55.678Z",
+  "updatedAt": "2026-07-18T21:30:36.125Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -7,15 +7,15 @@
       "id": "760516",
       "utcDate": "2026-07-18T21:00Z",
       "localTime": "23:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "3rd-place-match",
       "homeTeam": "France",
       "awayTeam": "England",
       "homeFlag": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
       "homeScore": "0",
-      "awayScore": "0",
-      "note": "Scheduled"
+      "awayScore": "2",
+      "note": "30'"
     },
     {
       "id": "760517",
