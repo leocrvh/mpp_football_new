@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T18:27:30.353Z",
+  "updatedAt": "2026-07-19T19:42:09.108Z",
   "source": "ESPN",
   "window": "veille 18h -> lendemain 06h Europe/Paris",
   "matches": [
@@ -21,7 +21,7 @@
       "id": "760517",
       "utcDate": "2026-07-19T19:00Z",
       "localTime": "21:00",
-      "status": "scheduled",
+      "status": "live",
       "group": "final",
       "homeTeam": "Spain",
       "awayTeam": "Argentina",
@@ -29,7 +29,7 @@
       "awayFlag": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
       "homeScore": "0",
       "awayScore": "0",
-      "note": "Scheduled"
+      "note": "36'"
     }
   ]
 }
